@@ -3,7 +3,7 @@ pipeline {
  
     environment { 
         // Define environment variables if needed 
-        DOCKER_HUB_CREDENTIALS = 'cca75468-03f4-4e66-ab63-d28d6bbc2ea9' 
+        DOCKER_HUB_CREDENTIALS = '0098f00e-326c-4890-aa59-ae4263c21eb5' 
         DOCKER_IMAGE_NAME = 'moizshaikh/javaassignment10'
         DOCKER_IMAGE_TAG = "${DOCKER_IMAGE_NAME}:${env.BUILD_NUMBER}" 
     } 
