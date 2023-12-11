@@ -1,5 +1,5 @@
-FROM java:8
-COPY . /var/www/java
-WORKDIR /var/www/java
+FROM openjdk:latest
+WORKDIR /usr/src/app
+COPY Main.java . 
 RUN javac Main.java
 CMD [ "java", "Main"]
